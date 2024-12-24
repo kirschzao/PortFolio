@@ -1,0 +1,16 @@
+footer{
+  width: 768px;
+  background-color: var(--color-grey);
+  display: flex;
+  justify-content: space-around;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+
+footer>p{
+  font-family: var(--font-family-op);
+  color: var(--color-white);
+  padding: 7px;
+}

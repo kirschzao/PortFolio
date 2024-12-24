@@ -1,0 +1,31 @@
+.main{
+  h2{
+    display: inline-block;
+    font: var(--h1);
+    color: var(--color-lightgreen);
+    background-color: var(--color-grey);
+    border-radius: 90px;
+    padding: 5px 20px 5px 20px;
+  }
+  p{
+    font: var(--text-span);
+    color: var(--color-white);
+    text-align: justify;
+  }
+}
+
+#aboutme{
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: solid 3px var(--color-lightgreen)
+}
+
+#education{
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: solid 3px var(--color-lightgreen);
+}

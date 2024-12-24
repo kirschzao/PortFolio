@@ -15,19 +15,23 @@
   --h1: 500 24px/135% var(--font-family-op);
   --h2: 800 16px/140% var(--font-family-op);
   --h3: 400 14px/140% var(--font-family-op);
-  --text-span: 200 14px/145% var(--font-family-op);
+  --text-span: 200 16px/145% var(--font-family-op);
   --text-sm: 200 14px/160% var(--font-family-op);
 }
 
 body{
   background-color: var(--color-s);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main{
   width: 768px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-block: 15px;
 }
+
+
