@@ -89,7 +89,8 @@
     border: solid white 1px;
     background-color: var(--color-lightgreen);
     border-radius: 8px;
-    width: 190px;
+    width: 120px;
+    max-width: 120px;
     text-decoration: none;
     text-align: center;
     font: var(--h3);
