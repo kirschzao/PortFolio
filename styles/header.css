@@ -18,6 +18,9 @@
     border-radius: 100%;
     border: solid 4px var(--color-grey);
   }
+  img:hover{
+    border: solid 4px var(--color-lightgreen);
+  }
 }
 
 .details{
@@ -98,6 +101,13 @@
     text-decoration: none;
   }
 }
+.greenbutton:hover{
+  background-color: var(--color-grey);
+  a{
+    color: var(--color-lightgreen);
+    text-decoration: none;
+  }
+}
 
 #but{
   height: 38px;
@@ -118,6 +128,14 @@
   }
 }
 
+#but:hover{
+  background-color: var(--color-lightgreen);
+  a{
+    color: var(--color-grey);
+    text-decoration: none;
+  }
+}
+
 #destaque{
   padding-top: 32px;
   display: flex;
@@ -126,7 +144,7 @@
 
 .highlights{
   display: flex;
-  background-color: var(--color-lightgreen);
+  background-color: var(--color-grey);
   width: 64px;
   height: 64px;
   border-radius: 100%;
@@ -138,9 +156,12 @@
     object-fit: cover;
   }
   p{
-    color: var(--color-white);
+    color: var(--color-lightgreen);
   }
+}
 
+.highlights:hover{
+  border: solid 3px var(--color-lightgreen);
 }
 
 header{

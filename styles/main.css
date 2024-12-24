@@ -29,3 +29,75 @@
   gap: 20px;
   border-bottom: solid 3px var(--color-lightgreen);
 }
+
+#technologies{
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: solid 3px var(--color-lightgreen);
+  h2{
+    margin-bottom: 10px;
+  }
+  h3{
+    font: 400 20px/115% var(--font-family-op);;
+    color: var(--color-lightgreen);
+  }
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-grey);
+  padding: 6px;
+  width: 190px;
+  border-radius: 7px;
+  img{
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
+  p{
+    font: var(--text-span);
+    color: var(--color-white);
+  }
+}
+
+.tools{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#projects{
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    padding: 15px;
+  }
+  a{
+    border: solid white 1px;
+    background-color: var(--color-lightgreen);
+    border-radius: 8px;
+    width: 190px;
+    text-decoration: none;
+    text-align: center;
+    font: var(--h3);
+    color: var(--color-grey);
+  }
+
+  a:hover{
+    background-color: var(--color-grey);
+    color: var(--color-white)
+  }
+}
